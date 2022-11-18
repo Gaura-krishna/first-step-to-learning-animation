@@ -1,0 +1,68 @@
+.learnAni{
+    height:100px;
+    width:100px;
+    position: relative;
+    animation-name:moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+
+@keyframes moving {
+    0%{
+        background-image: url("../d1.jpg");   
+        left:0;
+        top:0;
+    }
+    25%{
+        background-image: url("../d2.jpg");
+        left:200px;
+        top:0;
+
+    }
+    50%{
+        background-image: url("../d3.jpg");
+        left:200px;
+        top:200px;
+    }
+    75%{
+        background-image: url("../image.jpg");
+        top:200px;
+        left:0px
+
+    }
+    100%{
+        background-image: url("../d1.jpg");
+        top:0px;
+    } 
+
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+
+.sub{
+    margin-top: 0px;
+    background-color:rgb(247, 202, 166);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+button{
+    text-align: center;
+    background-color: brown;
+}
+.cards{
+    border: 2px solid black;
+    height: 250px;
+    width: 200px;
+    padding: 25px;
+}
